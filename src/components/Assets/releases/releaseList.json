@@ -1,0 +1,77 @@
+[
+  {
+    "Id": "0",
+    "Name": "Silverlight Cover Flow v0.03",
+    "DevelopmentStatus": "Beta",
+    "Description": "* Added some methods to increase the performance when loading pictures to update the layout. \n* Added seperate durations for next/prev and page up/page down.  I think it flows better.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2009-06-13T00:30:15.437-07:00",
+    "Files": [
+      {
+        "Id": "d13dc11b-c438-428d-aa2c-0bd9067b839e",
+        "FileName": "CoverFlow.zip",
+        "Url": "./0/d13dc11b-c438-428d-aa2c-0bd9067b839e",
+        "Type": "Source Code",
+        "UploadDate": "2009-06-13T00:30:15.31-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "1",
+    "Name": "Silverlight Cover Flow v0.02",
+    "DevelopmentStatus": "Beta",
+    "Description": "Updated. Runs smoother with more items.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2009-06-04T07:15:43.243-07:00",
+    "Files": [
+      {
+        "Id": "1f54bec7-aa07-4c4e-9324-bf25347da1c6",
+        "FileName": "CoverFlow.zip",
+        "Url": "./1/1f54bec7-aa07-4c4e-9324-bf25347da1c6",
+        "Type": "Source Code",
+        "UploadDate": "2009-06-04T07:15:43.12-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "Silverlight Cover Flow v0.01",
+    "DevelopmentStatus": "Beta",
+    "Description": "Source code and example.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2009-05-03T15:41:48.99-07:00",
+    "Files": [
+      {
+        "Id": "e1024756-8a6a-4978-8d53-d04e7cc84864",
+        "FileName": "CoverFlow.zip",
+        "Url": "./2/e1024756-8a6a-4978-8d53-d04e7cc84864",
+        "Type": "Application",
+        "UploadDate": "2009-05-03T15:41:48.77-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "Silverlight Cover Flow v0.04",
+    "DevelopmentStatus": "Beta",
+    "Description": "Added DC.ControlLibrary.zip:\n\n* Uses Silverlight 4\n* Extends Listbox instead of ItemsControl\n* Cleaner Code",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2010-06-27T19:50:16.22-07:00",
+    "Files": [
+      {
+        "Id": "0ee2c3a7-61ed-43a1-8c75-032c0470327a",
+        "FileName": "DC.ControlLibrary.zip",
+        "Url": "./3/0ee2c3a7-61ed-43a1-8c75-032c0470327a",
+        "Type": "Application",
+        "UploadDate": "2010-06-27T19:50:16.203-07:00"
+      },
+      {
+        "Id": "7d6b0c59-1f3f-486c-bdc8-784cec4e0031",
+        "FileName": "CoverFlow.zip",
+        "Url": "./3/7d6b0c59-1f3f-486c-bdc8-784cec4e0031",
+        "Type": "Application",
+        "UploadDate": "2009-08-25T07:37:10.743-07:00"
+      }
+    ]
+  }
+]

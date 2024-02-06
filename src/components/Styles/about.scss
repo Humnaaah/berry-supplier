@@ -1,0 +1,390 @@
+@import "Colors";
+
+$alignment:center;
+@media (max-width:385px){
+    .title{
+        height: 170px;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: left;
+    }
+}
+@media (min-width:386px){
+    .title{
+        height: 170px;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: left;
+    }
+}
+@media (max-width:991px){
+    .about-div3{
+        height: auto;
+        .aboutimgDiv{
+            height: 238px;
+        }
+        .content{
+            width: 95%;
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+}
+@media (max-width:649px) and (min-width:431px){
+    .about-main{
+        padding-top: 35%;
+    }
+    .about-div2{
+        padding-top:40%
+    }
+    
+}
+
+@media (max-width:430px){
+    .about-main{
+        padding-top: 60%;
+    }
+    .about-div2{
+        padding-top:60%
+    }
+   
+}
+@media (min-width:650px){
+    .about-main{
+        padding: 12%;
+    }
+    .about-div2{
+        padding:15%;
+        // padding-top:50px;
+    }
+}
+@media (min-width:992px){
+        .container{
+            width: 992px;
+        }
+        .about-main{
+            padding: 12%;
+        }
+        .about-div3{
+            height: 688px;
+            .aboutimgDiv{
+                height: 688px;
+            }
+            .content{
+                height: 155px;
+                width: 87%;
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+    }
+
+
+    .expandMore{
+        position: absolute;
+        bottom: 50px;
+    }
+    .about-main{
+        text-align: $alignment;
+        background-image: url('../Assets/bg_aboutus_1.png');
+        width: 100%;
+        height:624px;
+        position: relative;
+        background-attachment: inherit;
+        background-position: center;
+         background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        .content{
+            height: 257px;
+            width: 100%;
+            opacity: 0.84;
+            background-color: #0E7ABF;
+            padding: 22px;
+            padding-top: 9%;
+            cursor: pointer;
+            &:hover{
+                opacity: 0.9;
+            }
+
+            .title{
+                width: 95%;
+                margin-left: auto;
+                margin-right: auto;
+                color: #FFFFFF;
+                letter-spacing: 0;
+                font-weight: 300;
+             
+            }
+        }
+    }
+    .about-div2{
+        height: 671px;
+        width: 100%;
+        background-image: url(../Assets/bg_2.png);
+        background-attachment: inherit;
+        background-position: center;
+         background-attachment: fixed;
+        background-repeat: no-repeat;
+        position: relative;
+        text-align: $alignment;
+        background-size: cover;
+        .content{
+            height: 257px;
+            width: 100%;
+            opacity: 0.84;
+            background-color:  #91BF4C;
+            padding: 22px;
+            padding-top: 9%;
+            cursor: pointer;
+            &:hover{
+                opacity: 0.9;
+            }
+            .title{
+                // height: 170px;
+                width: 95%;
+                margin-left: auto;
+                margin-right: auto;
+                color: #FFFFFF;
+                // font-size: 22px;
+                // letter-spacing: 0;
+                // line-height: 30px;
+                font-weight: 300;
+                text-align: left;
+            }
+        }
+    }
+    .about-div3{
+        width: 100%;
+        text-align: $alignment;
+        position: relative;
+        .aboutimgDiv{
+            background-image: url(../Assets/bg_aboutus_3.png);
+            background-attachment: inherit;
+            // background-position: right;
+            //  background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .aboutImgLayer{
+            height: 100%;
+            width: 98%;
+            background-color: rgba(0,0,0,0.54);
+            position: absolute;
+        }
+        .aboutHistory{
+            box-sizing: border-box;
+            height: 688px;
+            border: 1px solid #979797;
+            background-color: #0E7ABF;
+            padding: 8%;
+            .content{
+                color: #FFFFFF;
+                letter-spacing: 0;
+                text-align: left;
+                font-weight: 300;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5%;
+            }
+        }
+    }
+    .about-div4{
+        height: auto;
+        background-color: #ffffff;
+        padding: 3%;
+            .row{
+                justify-content: center;
+            }
+        .team{
+            height: 259px;
+            text-align: $alignment;
+            margin-bottom: 20px;
+            position: relative;
+            
+            img{
+                height: 172px;
+                width: 225px;
+                margin-left: auto;
+                margin-right: auto;
+                object-fit: cover;
+            }
+            .body{
+                height: 80.5px;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: #FFFFFF;
+                box-shadow: 0 0 12px 1px rgba(37,37,37,0.41);
+                padding: 4%;
+                .name{
+                    height: 31px;
+                    color: #0568B2;
+                    font-size: 22px;
+                    letter-spacing: 0;
+                    line-height: 33px;
+                    text-align: center;
+                    margin-bottom: 0px;
+                }
+                .imgDiv{
+                    background-size: cover;
+                    height: 30px;
+                    width: 49px;
+                    background-repeat: no-repeat;
+                    position: absolute;
+                    bottom: 6px;
+                    left: -8px;
+                    background-image: url(../Assets/berry.png);
+                    background-repeat: no-repeat;
+                    position: absolute;
+                }
+                .design{
+                    height: 26px;
+                    color: #969B9D;
+                    font-size: 14px;
+                    letter-spacing: 0;
+                    line-height: 26px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    #testing-svg {
+    //    transform: translate(719.665624px, 928.911567px) translate(-719.665624px, -928.911567px)
+        // position: absolute;
+        // display: block;
+        // left: 50%;
+        // top: 50vh;
+        // margin-bottom: 50vh;
+        // overflow: visible;
+        // transform: translateX(-50%);
+    }
+    
+    // #testing-path {
+    //     // fill: none;
+    //     stroke: #fff;
+    //     // stroke-width: 2px;
+    // }
+    
+    #testing-circle {
+        // position: absolute;
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        top: 0px;
+        // background-image: url("../Assets/workflow arrow.svg");
+        // background-size: contain;
+        // width: 3rem;
+        // height: 2rem;
+        // top: -120px;
+        // left: -65px;
+        // transform: translate();
+        // border-radius: 50%;
+       
+        
+    }
+    .path{
+        // transform: translate(1637px, 205px) rotate(
+        //     -270deg);
+    }
+    // #Group-4{
+    //     transform: translate(695.754521, 234.887219);
+    //     transform: rotate(-87.000000);
+    // }
+
+    // transform="translate(695.754521, 234.887219) rotate(-87.000000) translate(-695.754521, -234.887219) translate(635.254521, 167.387219)"
+
+
+    // transform="translate(719.665624, 928.911567) rotate(-270.000000) translate(-719.665624, -928.911567) "
+
+    .box {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        position: absolute;
+        background-image: url("../Assets/workflow arrow.svg");
+        top: 0;
+        left: 0;
+        offset-path: path(
+          "M25,930.697604 C24.7189589,882.989283 47.8269813,836.86424 88.1697301,813.708302 C145.100133,781.031501 214.793956,806.469904 243.835189,870.525293 C252.442281,889.509234 256.511306,909.752863 256.497611,929.69409 L256.69276,930.094726 C256.812588,949.710437 260.890172,969.59388 269.351759,988.258082 C298.392992,1052.31347 368.086815,1077.7538 425.017217,1045.07507 C465.077514,1022.08286 488.14274,976.439347 488.176977,929.089286 L488.178689,929.738391 C487.885966,882.03007 510.992276,835.903101 551.335025,812.747163 C608.265428,780.070362 677.959251,805.508765 707.000483,869.566081 C715.607576,888.548095 719.676601,908.791724 719.662906,928.732951 L719.858055,929.135513 C719.979595,948.751224 724.055467,968.632741 732.517054,987.296943 C761.558287,1051.35426 831.25211,1076.79266 888.182512,1044.11586 C928.242809,1021.12172 951.308035,975.480134 951.342272,928.130073 L951.345696,929.738391 C951.051261,882.03007 974.159283,835.903101 1014.50032,812.747163 C1071.43072,780.070362 1141.12455,805.508765 1170.16749,869.566081 C1178.77287,888.548095 1182.86415,908.79365 1182.85045,928.734878 L1182.84532,928.91786 C1182.96515,948.533571 1187.04273,968.417014 1195.50432,987.081217 C1224.54555,1051.13853 1294.23937,1076.57694 1351.16978,1043.90013 C1391.23007,1020.90599 1414.2953,975.264407 1414.33125,927.914346 L1414.33125,928.56152"
+        );
+    }
+//     #Group-4{
+//         transform-box: fill-box;
+//   offset-anchor: 649.953px, 527.605px;
+//   /*   if offset anchor isn't supported we can use transform-origin instead */
+//   transform-origin: 649.953px, 527.605px;
+//         offset-rotate: auto;
+//         offset-path: path('M25,930.697604 C24.7189589,882.989283 47.8269813,836.86424 88.1697301,813.708302 C145.100133,781.031501 214.793956,806.469904 243.835189,870.525293 C252.442281,889.509234 256.511306,909.752863 256.497611,929.69409 L256.69276,930.094726 C256.812588,949.710437 260.890172,969.59388 269.351759,988.258082 C298.392992,1052.31347 368.086815,1077.7538 425.017217,1045.07507 C465.077514,1022.08286 488.14274,976.439347 488.176977,929.089286 L488.178689,929.738391 C487.885966,882.03007 510.992276,835.903101 551.335025,812.747163 C608.265428,780.070362 677.959251,805.508765 707.000483,869.566081 C715.607576,888.548095 719.676601,908.791724 719.662906,928.732951 L719.858055,929.135513 C719.979595,948.751224 724.055467,968.632741 732.517054,987.296943 C761.558287,1051.35426 831.25211,1076.79266 888.182512,1044.11586 C928.242809,1021.12172 951.308035,975.480134 951.342272,928.130073 L951.345696,929.738391 C951.051261,882.03007 974.159283,835.903101 1014.50032,812.747163 C1071.43072,780.070362 1141.12455,805.508765 1170.16749,869.566081 C1178.77287,888.548095 1182.86415,908.79365 1182.85045,928.734878 L1182.84532,928.91786 C1182.96515,948.533571 1187.04273,968.417014 1195.50432,987.081217 C1224.54555,1051.13853 1294.23937,1076.57694 1351.16978,1043.90013 C1391.23007,1020.90599 1414.2953,975.264407 1414.33125,927.914346 L1414.33125,928.56152');
+//         animation: move 10s forwards linear;
+//     }
+    // @keyframes move {
+    //     from {
+    //       offset-distance: 0%;
+    //     }
+    //     to {
+    //       offset-distance: 100%;
+    //     }
+    //   }
+
+    #test-svg {
+        position: absolute;
+        display: block;
+        left: 50%;
+        top: 50vh;
+        margin-bottom: 50vh;
+        overflow: visible;
+        transform: translateX(-50%);
+    }
+    
+    #test-path {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+    }
+    
+    #test-circle {
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        top: -1rem;
+      left: -1rem;
+        border-radius: 50%;
+        background: #fff;
+    }
+
+      
+     .test-svg {
+        position: fixed;
+        width: 200px;
+        height: 200px;
+        top:40px;
+        left:50px;
+     
+      }
+//       .wrapperPath{
+//         // margin: 0 auto;
+//         position: relative;
+//       }
+//       .fixedPath{
+//         // width: 220px;
+//         position: absolute;
+//         // top: 0;
+//       }
+//   #pathBody {
+//         // width: 220px;
+//         position: fixed;
+//         top: 8%;
+        
+//         /* Do not set top / left! */
+//     }
+    // #Group-4{
+    //     offset-path:path("M25,930.697604 C24.7189589,882.989283 47.8269813,836.86424 88.1697301,813.708302 C145.100133,781.031501 214.793956,806.469904 243.835189,870.525293 C252.442281,889.509234 256.511306,909.752863 256.497611,929.69409 L256.69276,930.094726 C256.812588,949.710437 260.890172,969.59388 269.351759,988.258082 C298.392992,1052.31347 368.086815,1077.7538 425.017217,1045.07507 C465.077514,1022.08286 488.14274,976.439347 488.176977,929.089286 L488.178689,929.738391 C487.885966,882.03007 510.992276,835.903101 551.335025,812.747163 C608.265428,780.070362 677.959251,805.508765 707.000483,869.566081 C715.607576,888.548095 719.676601,908.791724 719.662906,928.732951 L719.858055,929.135513 C719.979595,948.751224 724.055467,968.632741 732.517054,987.296943 C761.558287,1051.35426 831.25211,1076.79266 888.182512,1044.11586 C928.242809,1021.12172 951.308035,975.480134 951.342272,928.130073 L951.345696,929.738391 C951.051261,882.03007 974.159283,835.903101 1014.50032,812.747163 C1071.43072,780.070362 1141.12455,805.508765 1170.16749,869.566081 C1178.77287,888.548095 1182.86415,908.79365 1182.85045,928.734878 L1182.84532,928.91786 C1182.96515,948.533571 1187.04273,968.417014 1195.50432,987.081217 C1224.54555,1051.13853 1294.23937,1076.57694 1351.16978,1043.90013 C1391.23007,1020.90599 1414.2953,975.264407 1414.33125,927.914346 L1414.33125,928.561526" );
+    //     offset-rotate: auto -270deg;
+    // }
+    #Oval-000{
+       
+    }

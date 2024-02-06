@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "219454",
+    "ThreadId": "64475",
+    "Html": "<p>You derive your coverflow control from an ItemsControl, instead of a ListBox which seems more natural (since you implement the SelectedItem and SelectedIndex properties). Did you do this for any specific reason?</p>",
+    "PostedDate": "2009-08-04T14:17:20.707-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

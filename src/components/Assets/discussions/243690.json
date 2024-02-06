@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "556895",
+    "ThreadId": "243690",
+    "Html": "\r\n<p>How do you display a image with some text below it ?</p>\r\n<p>Dim CFProducts As New List(Of ControlLibrary.CoverFlowItemControl)</p>\r\n<p>Dim oCover As New ControlLibrary.CoverFlowItemControl</p>\r\n<p>oCover.Name = someid</p>\r\n<p>oCover.Content = sometext</p>\r\n<p>CFProducts.Add(oCover)<br>\r\n<br>\r\nCoverFlow.ItemsSource = CFProducts</p>\r\n<p>&nbsp;</p>\r\n<p>I've followed the samples, and no images or text appear.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n",
+    "PostedDate": "2011-01-28T07:42:39.38-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

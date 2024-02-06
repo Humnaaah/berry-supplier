@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I hate to double post but this is an issue....\n \nI'm using RIA Services to load images from a database, now I have an ObservableCollection bound to the ItemSource and whenever a new entry is added, it is overlayed on the previous, instead of stacking the item to the right.",
+    "LastUpdatedDate": "2013-02-14T11:10:56.06-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "SilverlightCoverFlow",
+    "ReportedDate": "2009-08-24T16:31:12.39-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Overlaying issue when bound to ObservableCollection",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2069
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I believe i know what the problem is here.  when new items are added or removed they are correctly added to the items list, but the layout is not properly updated.  I fixed this issue (partially) in the copy i dowloaded by adding an override to the OnItemsChanged method:\r\n\r\n  protected override void OnItemsChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs e)\r\n        {\r\n            base.OnItemsChanged(e);\r\n            if (SelectedIndex > items.Count) SelectedIndex = items.Count - 1;\r\n            LayoutChildren();\r\n        }\r\n\r\nAlso there is the occasional issue (im not sure why where there is a CoverFlowItemControl in the items array which has not been templated yet.  this causes some issues so i also added a simple check to CoverFlowItemControl.SetValues:\r\n\r\npublic void SetValues(double x, int zIndex, double r, double z, double s, Duration d, IEasingFunction ease, bool useAnimation)\r\n        {\r\n            if (!HasAppliedTemplate) return;\r\n...\r\n\r\nThis seems to be working for me, I hope it works for you.\r\n\r\n\r\n",
+      "PostedDate": "2009-09-28T07:52:02.82-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T11:10:56.06-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

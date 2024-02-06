@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "431201",
+    "ThreadId": "209388",
+    "Html": "<p>When I declare the CoverFlow control in XAML and assign a DataTemplate, I can successfully get the control to fill with items and display in my program; however, I am using a custom UserControl as the DataTemplate which is causing the application to delay for over a minute while the forms are drawn in the control.</p>\r\n<p>To try to avoid the visual delay in program execution, I&nbsp;would like to try to&nbsp;create the CoverFlow control and its contents in code-behing, then&nbsp;update the UI when the creation process is complete.&nbsp; I&nbsp;am able to create the control and&nbsp;assign the ItemsSource&nbsp;in code-behind but&nbsp;not the DataTemplate.&nbsp; I verified that the list of items is in the CoverFlow control but they don't show in the UI.</p>\r\n<p>I'm thinking this has something to do with the DataTemplate but I haven't figured out how to dynamically assign it...can anyone show me how to add the DataTemplate dynamically?</p>\r\n<p>Thanks in advance.</p>",
+    "PostedDate": "2010-04-14T17:03:36.94-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "436612",
+    "ThreadId": "209388",
+    "Html": "<p>I am very much interested in how you set up your Cover Flow control to show your custom User Control. I need to do the same thing with my application. I only have about 15 possible different usercontrols that could be shown in the Cover Flow depending on if the user has selected to open up all 15 windows most of the time it will only be 5 or 6 usercontrols at a time that will be shown in the Cover Flow.</p>\r\n<p>Do you have any code examples of your cover flow definition in your XAML page and also your DataTemplate as well. and any code behind that goes with it. I keep getting an error Cover Flow function:&nbsp;</p>\r\n<p><span style=\"font-size:x-small;font-family:Consolas\"><span style=\"font-size:x-small;font-family:Consolas\">\r\n<p>PrepareContainerForItemOverride</p>\r\n</span></span></p>",
+    "PostedDate": "2010-04-28T09:20:20.537-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "438526",
+    "ThreadId": "209388",
+    "Html": "<p>jbayes - My custom control is essentially a data form with various charts, data grids, text boxes, text blocks, and multiple buttons (all assembled and coded in the custom control).&nbsp; In the CoverFlow control (DataTemplate) I create an instance of the custom control and since I have the buttons, charts, etc. in the custom control, they all retain their normal functionality.&nbsp; This may be what is causing the control to load so slow; however, it is still pretty slow when I create the data form in the DataTemplate fro scratch.&nbsp; Since my control and subsequent code-behind is a part of an application that I am working on for my company, I am unable to add any form specific coding.&nbsp; I used the example from this control as well as the example from <a href=\"http://www.wintellect.com/CS/blogs/jprosise/archive/2009/11/05/implementing-coverflow-in-silverlight-3.aspx\">Jeff Prosise's</a> website.</p>",
+    "PostedDate": "2010-05-03T14:23:03.59-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "445107",
+    "ThreadId": "209388",
+    "Html": "<p>Upon looking over the example you sent me, I was able to implement this coverflow to show our custom usercontrols. The way I implemented it and something you might want to consider is instead of showing the actual usercontrol in the coverflow, I just captured an image of the usercontrol dynamically in code and then created the datatemplate for the coverflow that was an image and I just set the datasource for the coverflow to the list of the image source and I am able to scroll through the usercontrols that I created but it is just an image of the usercontrol and when they click on the user control they want to select I just bring that usercontrol into focus and close down the coverflow. Before I show the coverflow again I loop through all of my usercontrols that the user has opened and take a new snap shot image of it and add to the list then I pass this list to the coverflow. Very fast. I have had 9 different user controls opened up&nbsp;all pretty complexed and the image works great.</p>",
+    "PostedDate": "2010-05-19T13:28:59.2-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

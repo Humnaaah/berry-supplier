@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "472659",
+    "ThreadId": "221423",
+    "Html": "<p>Hello,</p>\r\n<p>&nbsp;</p>\r\n<p>Awesome component. Quite easy to use, I have been able to do verything I wanted so far, yet there is still one thing that troubles me :</p>\r\n<p>After displaying all my items, I would like to be able to change the image used for some of these items (a delayed loading I have to implement due to a complex data structure behind it all). I can change the image without any problem in CoverFlowControl.ItemsSource items but these change have no effect graphically.</p>\r\n<p>I tried calling&nbsp;.UpdateLayout(); on this component to force a refresh but to no avail.</p>\r\n<p>&nbsp;</p>\r\n<p>Any idea on how I could implement my partial delayed loading ?</p>\r\n<p>&nbsp;</p>\r\n<p>Regards,</p>\r\n<p>Jonathan</p>",
+    "PostedDate": "2010-07-26T07:27:53.347-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "483637",
+    "ThreadId": "221423",
+    "Html": "<p>Hello,</p>\r\n<p>This will teach me to accept working on a project without having time to study the technology beforehand. With no Silverlight background I completly forgot to implement&nbsp;INotifyPropertyChanged in the items I bound on the control.</p>\r\n<p>Once done, everything works like a charm. Hopes it could helps other .</p>\r\n<p>&nbsp;</p>\r\n<p>Regards,</p>\r\n<p>Jonathan</p>",
+    "PostedDate": "2010-08-23T08:35:16.423-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

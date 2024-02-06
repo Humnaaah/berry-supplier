@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "212916",
+    "ThreadId": "62729",
+    "Html": "<p>Hi,</p>\r\n<p>Your application is really great! I am fairly new to C# and it is a great way of learning. You have done an amazing job within XAML and C#. So thank you very much for this :)</p>\r\n<p>I have a small issue. I understand the way you coded, the Element Data Binding etc, and everythings works well on developement. But, when I deploy and run the application either locally or on the web, I get the error message stating &quot;There was an error retrieving xml&quot;.</p>\r\n<p>In order to deploy it, I click right on &quot;CoverFlowWeb&quot;, then choose &quot;Publish&quot;, either a ftp or file path and choose &quot;Publish&quot;. In order to run the app, I go to the deployed folder and click on the Default.html.</p>\r\n<p>Unfortunately I get the error message on both cases, do you know what I am doing wrong? Could you please help me?</p>\r\n<p>&nbsp;</p>\r\n<p>Thank you very much,</p>\r\n<p>Chris</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-07-17T01:16:22.997-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "239295",
+    "ThreadId": "62729",
+    "Html": "<p>Hey,</p>\r\n<p>&nbsp;</p>\r\n<p>You need to put this line in Web.config file, to allow application access to internet:&nbsp;</p>\r\n<p>&lt;trust level=&quot;Full&quot;/&gt;</p>\r\n<p>\r\n<p><span style=\"color:#0000ff;font-size:x-small\"><span style=\"color:#0000ff;font-size:x-small\">&nbsp;</span></span></p>\r\n</p>",
+    "PostedDate": "2009-09-27T11:11:52.307-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "245625",
+    "ThreadId": "62729",
+    "Html": "<p>Sounds like you are trying to run your application directly from the Default.html if you are opening up the folder in Windows Explorer and clicking on Default.html.&nbsp; However your application is a .Net application and requires a webserver to run the .Net part.&nbsp; There is an error retrieving the xml because it uses an asmx webservice to download the movie trailer xml data from apple.com and then caches it.&nbsp; So if you are not running from a web server then it will not be able to run the .Net code.</p>\r\n<p>Hope this helps,</p>\r\n<p>Darick</p>",
+    "PostedDate": "2009-10-14T08:12:28.7-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "583832",
+    "ThreadId": "62729",
+    "Html": "<p>Hey Darick or anyone else that can help,</p>\r\n<p>&nbsp;</p>\r\n<p>I running into some of the same issues as others on this board.&nbsp; I've download the code...very cool thanks for posting.&nbsp; I got it up and running straight out of VS 2010.&nbsp; If I hit the website (default html) using mozilla or I.E. I get the error \"\"There was an error retrieving  xml\".\"&nbsp;</p>\r\n<p>If i'm using the apple xml file or my own and run it through VS 2010 debug it works and fires but if it is not through VS just through a browser I get the error.&nbsp;</p>\r\n<p>As derick point out the application is a .Net application and requires a webserver to run the .Net  part but my machine is a web server and I am running IIS.</p>\r\n<p>So I'm wondering why it can make the connection when I launch debug from VS 2010 but it can't when I go directly through the web browser.&nbsp; Obviously when I launch through VS my web address looks something like http://localhost:52703/Default.html and when I go through a browser I'm typing in http://servername/AppFinder/CoverFlowWeb/Default.html</p>\r\n<p>&nbsp;</p>\r\n<p>Can someone suggestion something else or sheds some more light on this...I've spent days trying to get it to run from the browser and can't.</p>\r\n<p><br />Thanks</p>\r\n<p>Christine.</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2011-03-21T09:53:32.383-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

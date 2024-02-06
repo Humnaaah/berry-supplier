@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "412430",
+    "ThreadId": "203327",
+    "Html": "<p>hi,</p>\r\n<p>i want to implement search option in the coverflow. search would be done on movie name.&nbsp;</p>\r\n<p>\r\n<pre><a href=\"http://www.darickcarpenter.com/samples/previewme/\">http://www.darickcarpenter.com/samples/previewme/</a></pre>\r\nI exactly want to do it in this way....!</p>",
+    "PostedDate": "2010-02-28T07:14:11.203-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "413855",
+    "ThreadId": "203327",
+    "Html": "<p>Guess this,&nbsp;</p>\r\n<p>You will need to filter the collection bound to the CoverFlow control.</p>",
+    "PostedDate": "2010-03-03T13:57:02.863-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "420504",
+    "ThreadId": "203327",
+    "Html": "<p>thnks for the reply but can u tell me how.. im very new to silverlight.</p>\r\n<p>((string)(((CoverFlowClient.MovieTrailer)(items.ToArray()[<strong>SelectedIndex</strong>].Content)).SortTitle)).StartsWith(e.Key.ToString(),StringComparison.CurrentCultureIgnoreCase)</p>\r\n<p>but can make the desired result from it..!</p>\r\n<p>ill be very grateful if u help me out from this...</p>",
+    "PostedDate": "2010-03-20T02:57:48.047-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

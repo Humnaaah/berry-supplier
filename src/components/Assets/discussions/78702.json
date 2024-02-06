@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "269469",
+    "ThreadId": "78702",
+    "Html": "<p>Hi,</p>\r\n<p>I've put some controls(StackPanel-&gt;TextBox) inside the ItemTemplate-&gt;DataTemplate. Now I want to change the UI (like changing visibility of TextBox) when user clicks on a button which is not present in the coverflow.</p>\r\n<p>So, Is there any way I can access the controls present inside DataTemplate of the coverFlow Control.</p>\r\n<p>Thanks,</p>\r\n<p>Nitin.</p>",
+    "PostedDate": "2009-12-20T20:30:32.583-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

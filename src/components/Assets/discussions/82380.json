@@ -1,0 +1,42 @@
+[
+  {
+    "Id": "283037",
+    "ThreadId": "82380",
+    "Html": "<p>How hard would this be? does it use any Silverlight specific features that cannot be done in WPF? can it still use hardware acceleration in WPF?</p>",
+    "PostedDate": "2010-01-28T16:34:43.433-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "413857",
+    "ThreadId": "82380",
+    "Html": "<p>gHoul,&nbsp;</p>\r\n<p>This concept should work fine in WPF4, there are no specifics in there that will stop it.</p>",
+    "PostedDate": "2010-03-03T13:58:25.01-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "428923",
+    "ThreadId": "82380",
+    "Html": "<p>\r\n</p>\r\n<p>Awesome! I can't wait to incorperate this into all my apps ever!</p>",
+    "PostedDate": "2010-04-08T10:22:25.65-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "444997",
+    "ThreadId": "82380",
+    "Html": "<p>Hi</p>\r\n<p>Did anyone manage to port this to WPF? Preferably WPF 4?</p>\r\n<p>Will be grateful for your response. Thanks in advance</p>",
+    "PostedDate": "2010-05-19T09:57:44.84-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "507192",
+    "ThreadId": "82380",
+    "Html": "<p>I'm not sure if you can port this to WPF.. But you have FluidKit which provides the same functionality... Its wonderful and i've had a look at it recently... You guys can definitely check that out...</p>",
+    "PostedDate": "2010-10-14T05:23:32.623-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

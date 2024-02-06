@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "231541",
+    "ThreadId": "68079",
+    "Html": "<p>First of all great control - good work!</p>\r\n<p>I have a a set of different controls I wan't to show as items in the coverflow control. Is this possible?</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-09-06T03:03:01.65-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "242402",
+    "ThreadId": "68079",
+    "Html": "<p>gimufafi,&nbsp;</p>\r\n<p>yes you can, simply add a ContentControl or whatever control you like into its container...</p>",
+    "PostedDate": "2009-10-05T22:07:29.94-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

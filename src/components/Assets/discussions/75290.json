@@ -1,0 +1,74 @@
+[
+  {
+    "Id": "257624",
+    "ThreadId": "75290",
+    "Html": "<p>hi guys,</p>\r\n<p>to be honest i did not understand how the component work inside. Silverlight and the its animations works so different from asp.net and win32 app.</p>\r\n<p>for instance, how should i&nbsp;set the current selected item programmaticly?</p>\r\n<p>thanks</p>\r\n<p>john79</p>",
+    "PostedDate": "2009-11-16T11:48:54.29-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "257701",
+    "ThreadId": "75290",
+    "Html": "<p>Hi!</p>\r\n<p>I was just signing up to ask this exact same question! I have been using the control for a few weeks now, and again I'm form an ASP.NET background and have relatively little experience with Silverlight.</p>\r\n<p>I data bind my cover flow to a WCF service. This works great and I can browser thourgh my covers.</p>\r\n<p>What I would really like to be able to do though, is once I have data bound to my service, check a property on the page (actually taken from QueryString - but this bit is already coded) and then select the item within the coverflow.</p>\r\n<p>If I add a button to the page and then set the CoverFlow's SelectedIndex property the control will update itself. However, if I try to call this from the WCF callback method this doesn't work.</p>\r\n<p>Any ideas on how this can be done?</p>\r\n<p>My method structure is as follows:</p>\r\n<p>MainPage() -&gt; Call BindData()<br>BindData() -&gt; Create WCF proxy class and call Async() method<br>AsyncCallback() -&gt; Gets fired when WCF service returns. I then bind the results to the coverflow control's ItemSource property. Next I try to call CoverFlow.SelectedIndex = 2 (for example) but the coverflow stays selected at 0</p>\r\n<p>If you need any clarification please feel free to let me know!</p>\r\n<p>Regards,</p>\r\n<p>Gary...</p>",
+    "PostedDate": "2009-11-16T16:37:39.263-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "263540",
+    "ThreadId": "75290",
+    "Html": "<p>Hi - did anyone get this sorted out? I too am trying to set the selected index programmatically after binding the item source and its not working for me, Any advice greatly recieved :D</p>",
+    "PostedDate": "2009-12-04T01:32:53.103-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "263891",
+    "ThreadId": "75290",
+    "Html": "<p>OK, I solved it....</p>\r\n<p>Add a timer to the top of your xaml.code file,</p>\r\n<p><span style=\"color:#0000ff;font-size:x-small\"><span style=\"color:#0000ff;font-size:x-small\">Dim </span></span><span style=\"color:#0000ff;font-size:x-small\"><span style=\"color:#0000ff;font-size:x-small\">WithEvents</span></span><span style=\"font-size:x-small\"> Timer </span><span style=\"color:#0000ff;font-size:x-small\"><span style=\"color:#0000ff;font-size:x-small\">As</span></span><span style=\"font-size:x-small\"> </span><span style=\"color:#0000ff;font-size:x-small\"><span style=\"color:#0000ff;font-size:x-small\">New</span></span><span style=\"font-size:x-small\"> DispatcherTimer </span><span style=\"color:#0000ff;font-size:x-small\"><span style=\"color:#0000ff;font-size:x-small\">With</span></span><span style=\"font-size:x-small\"> {.Interval = </span><span style=\"color:#0000ff;font-size:x-small\"><span style=\"color:#0000ff;font-size:x-small\">New</span></span><span style=\"font-size:x-small\"> TimeSpan(0, 0, 1)}</span></p>\r\n<p>Set the items source of your CoverFlow as normal (on loaded for example), then start the timer at the end of the sub/function. On the Tick event, stop the timer and then set the Selected index:</p>\r\n<p>&nbsp;</p>\r\n<p><span style=\"font-size:x-small\"></span><span style=\"color:#0000ff;font-size:x-small\"><span style=\"color:#0000ff;font-size:x-small\">Me</span></span><span style=\"font-size:x-small\">.CoverFlow.SelectedIndex = 5</span></p>\r\n<p>Timer.Stop()</p>\r\n<p>&nbsp;</p>\r\n<p>It works. Hope it helps someone out.</p>\r\n<p>Cheers</p>\r\n<p>Chris</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-12-05T03:41:49.18-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "263892",
+    "ThreadId": "75290",
+    "Html": "<p>hice to hear that you solved.. : )</p>\r\n<p>could you post more code please?</p>\r\n<p>john79</p>",
+    "PostedDate": "2009-12-05T03:52:19.093-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "264145",
+    "ThreadId": "75290",
+    "Html": "\r\njohn79, declare a timer at the top of your xaml.code file as per my last post. Then load up the itemssource of your CoverFlow control as normal and start the timer:<br>\r\n <br>\r\nMe.CoverFlow.ItemSource = MyDataSource<br>\r\nTimer1.Start<br>\r\n <br>\r\nThen just set the selectedindex on the Timer's tick event, something like:<br>\r\n <br>\r\nTimer1.Stop<br>\r\nMe.CoverFlow.SelectedIndex = 3<br>\r\n <br>\r\nThat's it.<br>\r\n <br>\r\nCheers<br>\r\nChris<br> <br>\r\n<hr id=stopSpelling>\r\nFrom: [email removed]<br>To: [email removed]<br>Date: Sat, 5 Dec 2009 03:52:25 -0800<br>Subject: Re: how to set item programmaticly [SilverlightCoverFlow:75290]<br><br>\r\n\r\n\r\nFrom: john79<br>\r\n<div id=ecxThreadNotificationPostBody>\r\nhice to hear that you solved.. : )<br>\r\ncould you post more code please?<br>\r\njohn79<br></div>\r\n<div id=ecxThreadNotificationFooter>\r\nRead the <a href=\"http://silverlightcoverflow.codeplex.com/Thread/View.aspx?ThreadId=75290&ANCHOR#Post263892\">full discussion online</a>.<br>\r\nTo add a post to this discussion, reply to this email (<a href=\"mailto:SilverlightCoverFlow@discussions.codeplex.com?subject=[SilverlightCoverFlow:75290]\">SilverlightCoverFlow@discussions.codeplex.com</a>)<br>\r\nTo start a new discussion for this project, email <a href=\"mailto:SilverlightCoverFlow@discussions.codeplex.com\">SilverlightCoverFlow@discussions.codeplex.com</a><br>\r\nYou are receiving this email because you subscribed to this discussion on CodePlex. You can <a href=\"https://silverlightcoverflow.codeplex.com/subscriptions/thread/project/edit\">unsubscribe or change your settings</a> on codePlex.com.<br>\r\nPlease note: Images and attachments will be removed from emails. Any posts to this discussion will also be available online at codeplex.com<br></div> \t\t \t   \t\t  <br><hr>View your other email accounts from your Hotmail inbox. <a href=\"http://clk.atdmt.com/UKM/go/186394592/direct/01/\">Add them now.</a>",
+    "PostedDate": "2009-12-06T07:43:35.42-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "264560",
+    "ThreadId": "75290",
+    "Html": "<p>I came up with a slightly different solution - but it works for what I'm trying to do.</p>\r\n<p>The code looked something like this:</p>\r\n<div style=\"color:Black;background-color:White\">\r\n<pre><span style=\"color:Blue\">public</span> <span style=\"color:Blue\">partial</span> <span style=\"color:Blue\">class</span> MainPage : UserControl\r\n{\r\n    <span style=\"color:Blue\">private</span> <span style=\"color:Blue\">int</span> selectedRelease = 0;\r\n    <span style=\"color:Blue\">private</span> <span style=\"color:Blue\">bool</span> boundControlToPassedRelease = <span style=\"color:Blue\">false</span>;\r\n\r\n    <span style=\"color:Blue\">public</span> MainPage()\r\n    {\r\n        <span style=\"color:Green\">// Other constructor logic</span>\r\n        BindData();\r\n        CoverFlowControl.ItemsChanged += <span style=\"color:Blue\">new</span> ItemsChangedEvent(CoverFlowControl_ItemsChanged);\r\n    }\r\n\r\n    <span style=\"color:Blue\">void</span> CoverFlowControl_ItemsChanged(EventArgs e)\r\n    {\r\n        <span style=\"color:Blue\">if</span> (!boundControlToPassedRelease)\r\n        {\r\n            CoverFlowControl.SelectedIndex = 3;\r\n            boundControlToPassedRelease = <span style=\"color:Blue\">true</span>;\r\n        }\r\n    }\r\n}\r\n\r\n\r\n</pre>\r\nYou obviously need to&nbsp;hook up the items changed event as well. I also extended the CoverFlowControl to allow me to find an object based on one of its properties rather than its index. I did this just by looping through all objects until I find the right one and returning the index. Have any of you come up with a better way to do this?</div>\r\n<div style=\"color:Black;background-color:White\">Gary...</div>",
+    "PostedDate": "2009-12-07T10:18:27.707-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "265333",
+    "ThreadId": "75290",
+    "Html": "<p>could you post the code of your ehnacement?</p>\r\n<p>&nbsp;it will be nice to include it on original source.</p>\r\n<p>john79</p>",
+    "PostedDate": "2009-12-09T07:07:59.693-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "265351",
+    "ThreadId": "75290",
+    "Html": "<p>I also founded another solution :</p>\r\n<p>there was already this method in the samples code</p>\r\n<div style=\"color:Black;background-color:White\">\r\n<pre><span style=\"color:Blue\">private</span> <span style=\"color:Blue\">void</span> UpdatePosition(<span style=\"color:Blue\">int</span> index)\r\n{\r\n<span style=\"color:Blue\">\tfor</span> (<span style=\"color:Blue\">int</span> i = 0; i &lt; index; i++)\r\n     \t{\r\n         \t\tflowControl.NextItem();\r\n     \t}\r\n}\r\n</pre>\r\n<pre>So after the load completed, before doesn't work. I wrote this </pre>\r\n<pre><span style=\"color:Blue\">if</span> (IsolatedStorageSettings.ApplicationSettings.Contains(<span style=\"color:#A31515\">&quot;SelectedIndex&quot;</span>))\r\n{\r\n<span style=\"color:Blue\">\tvar</span> index = IsolatedStorageSettings.ApplicationSettings[<span style=\"color:#A31515\">&quot;SelectedIndex&quot;</span>];\r\n         UpdatePosition((<span style=\"color:Blue\">int</span>)index);\r\n}\r\n</pre>\r\n<pre>and in SelectedItemClicked:</pre>\r\n<pre><span style=\"color:Blue\">void</span> flowControl_SelectedItemClicked(CoverFlowEventArgs e)\r\n{\r\n\tIsolatedStorageSettings.ApplicationSettings[<span style=\"color:#A31515\">&quot;SelectedIndex&quot;</span>] = e.Index;\r\n}\r\n</pre>\r\n<pre>  </pre>\r\n<pre>looks good at moment!</pre>\r\n<pre>cheers </pre>\r\n<pre>Giovanni D'Arienzo          \r\n</pre>\r\n</div>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-12-09T07:39:35.593-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

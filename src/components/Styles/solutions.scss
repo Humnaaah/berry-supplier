@@ -1,0 +1,135 @@
+
+@media (max-width:991px){
+    .solutions{
+        .titleSol{
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .react-multi-carousel-list .carousel-container {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .cards{
+            width: 205px;
+        }
+        
+    }
+}
+@media (min-width:992px){
+    .solutions{
+        .titleSol{
+            font-size: 28px;
+            line-height: 40px;
+        } 
+        .cards{
+            width: 213px;
+        }
+    }
+}
+.solutions{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    .react-multi-carousel-item{
+        flex: 1 1 auto;
+        position: relative;
+        width: 225px !important;
+    }
+    .react-multiple-carousel__arrow {
+        position: absolute;
+        outline: 0;
+        transition: all .5s;
+        border-radius: 5px;
+        z-index: 1000;
+        border: 0;
+        background: #91BF4C !important;
+        min-width: 30px;
+        min-height: 30px;
+        opacity: 1;
+        cursor: pointer;
+    }
+    .titleSol{
+        height: 40px;
+        color: #0A2540;
+        font-family: Poppins;
+        letter-spacing: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .cards{
+        box-sizing: border-box;
+        height: 172px;
+        border: 1px solid #bbbbbb;
+        border-radius: 5px;
+        background-color: #f7f7f7;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        cursor: pointer;
+        a{
+            text-decoration:none ;
+        }
+        &:hover{
+            background-color: #0E7ABF;
+            transform: scale(1.1);
+            height: 180px;
+            border-radius: 5px;
+            svg path{
+                fill: white;
+            }
+            h6{
+                color:white
+            }
+            
+        }
+        .cardsSelected{
+            background-color: #0E7ABF;
+            transform: scale(1.1);
+            height: 180px;
+            border-radius: 5px;
+            svg path{
+                fill: white;
+            }
+            h6{
+                color:white
+            }
+            a{
+                text-decoration:none ;
+            }
+        }
+
+        .imgDiv{
+            width: 90%;
+            height: 70px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 27px;
+            margin-top: 15px;
+
+           img{
+            height: 78px;
+            width: 131px;
+            padding: 0px;
+            object-fit: scale-down;
+            }
+        }
+
+        h6{
+            height: 28px;
+            /* width: 100%; */
+            color: #0A2540;
+            font-family: Poppins;
+            font-size: 15px;
+            font-weight: 500;
+            letter-spacing: 0;
+            line-height: 30px;
+            text-align: center;
+        }
+        
+    }
+}
+.react-multi-carousel-list{
+    justify-content: center;
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "486904",
+    "ThreadId": "225437",
+    "Html": "<p>Hello, sorry if my question is too trivial. I just downloaded CoverFlow.zip and run the sample project in VSTO 2010, which works very well. But I would like to understand how should I upgrade the new assembly dc.controlibrary.dll. Should I remove add a reference to this new assembly?</p>\r\n<p>Thanks,<br>Rafael &nbsp;</p>",
+    "PostedDate": "2010-08-31T05:51:58.78-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "239973",
+    "ThreadId": "70452",
+    "Html": "<p>Hello, its possible add chart control in FlowItem?</p>\r\n<p>Tkx</p>",
+    "PostedDate": "2009-09-29T06:31:49.507-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "242404",
+    "ThreadId": "70452",
+    "Html": "<p>Yes it is, just add the content into the container...</p>",
+    "PostedDate": "2009-10-05T22:09:41.457-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1172482",
+    "ThreadId": "70452",
+    "Html": "Hello , \r<br />\n<br />\nCan you please explain how to do that ? I'm not sure if i'm catching up to this .\r<br />\n<br />\nThanks in advance.<br />\n",
+    "PostedDate": "2014-01-16T21:28:32.187-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

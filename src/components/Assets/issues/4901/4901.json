@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I've added a reference to the DC.ControlLibrary.DLL. Whenever I try and add the coverflowControl I get the following error:\n \nError HRESULT E_FAIL has been returned from a call to a COM component.\n \nI'm a complete newbie when it comes to silverlight/expression 4 so it's probably something I'm doing wrong...",
+    "LastUpdatedDate": "2013-02-14T11:10:55.58-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "SilverlightCoverFlow",
+    "ReportedDate": "2010-07-20T08:48:06.577-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Can't get control to work",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 4901
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Add this System.Windows.Controls.Data.Input to the project reference and ad this import to the page with control xmlns:my=\"clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data.Input\"",
+      "PostedDate": "2011-01-16T14:43:17.04-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "@gdorigo, I encountered the same issue described above when I use Silverlight 4. I have the VS 2010 SP1 up to date until today. I tried again, the way you suggested, but it still returns the same error.\r\nWhen I try to implement the DC.ControlLibray thing using a Silverlight 3, it does not throw any error, it works seamlessly. The issue is only when I create a silverlight 4 application. Please advice......",
+      "PostedDate": "2011-12-01T06:55:53.76-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T11:10:55.58-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

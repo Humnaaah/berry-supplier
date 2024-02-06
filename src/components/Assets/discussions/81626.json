@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "280248",
+    "ThreadId": "81626",
+    "Html": "<p>HI</p>\r\n<p>I've reused the code submitted by Jeff Prosise for implementing dragging images in this coverflow control. My only problem now is that the I can't capture click, mouse up or down events as items are dragged.</p>\r\n<p>Does anybody have any suggestions on how to implement mouse gestures and a click event?</p>\r\n<p>Thanks</p>\r\n<p>Carl</p>",
+    "PostedDate": "2010-01-21T13:26:03.003-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

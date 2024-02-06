@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "196609",
+    "ThreadId": "58142",
+    "Html": "<p>I only had a minute to look through your code and example...I have to say this is fabulous work! &nbsp;Thanks so much for making this open-source!</p>\r\n<p>What do you think about adding some support for ViewStates? &nbsp;For instance, it would be great if there was some ViewStates for the coverflow items. &nbsp;So maybe when the item is on the side, it's a certain state, and when it is brought to the front, it changes to another state. &nbsp; This would allow designers, in Blend, to possible make the cover item glow as it comes to the front...or make the other items in the back &quot;dim&quot; until they come to the front.</p>\r\n<p>Thanks again for this gem,</p>\r\n<p>-Jer</p>",
+    "PostedDate": "2009-06-01T16:36:02.367-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

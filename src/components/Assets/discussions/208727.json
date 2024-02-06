@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "428901",
+    "ThreadId": "208727",
+    "Html": "<p>Hi,</p>\r\n<p>you did really a great work...except for memory usage :(</p>\r\n<p>When I launch the application (without any modification) it takes over 100 MB of RAM with ie and over 200 MB with firefox.</p>\r\n<p>Is this the same for you? Do you think is there some particular effect/transformation or something else which has more impact on memory usage?</p>\r\n<p>&nbsp;</p>\r\n<p>Bye</p>",
+    "PostedDate": "2010-04-08T09:51:35.77-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

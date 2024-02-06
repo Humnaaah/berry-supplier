@@ -1,0 +1,80 @@
+@import "Colors";
+.facilities{
+    .carousel{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        .item{
+            height: 365px;
+            width: 240px;
+            border-radius: 5px;
+            background-color: #FFFFFF;
+            padding: 15px;
+            padding-bottom: 2px;
+            cursor: pointer;
+            &:hover{
+                opacity: 0.9;
+            }
+            .imgDiv{
+                height: 230px;
+                width: 100%;
+                padding: 20px;
+              img{
+                // height: 180px;
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+              }
+            }
+            h1{
+                width: 172px;
+                color: #000000;
+                font-family: "Poppins";
+                font-size: 29px;
+                font-weight: bold;
+                letter-spacing: 0;
+                line-height: 30px;
+                text-align: left;
+                padding-left: 12px;
+                margin-bottom: 20px;
+            }
+            a{
+                height: 21px;
+                width: 201px;
+                color: #0E7ABF;
+                font-family: Poppins;
+                font-size: 13px;
+                font-weight: bold;
+                letter-spacing: 0;
+                line-height: 20px;
+                text-decoration: none;
+                cursor: pointer;
+
+                &:hover{
+                    opacity: 0.75;
+                }
+            }
+        }
+        .react-multi-carousel-item{
+            width: 260px !important;
+        }
+        .react-multiple-carousel__arrow {
+            position: absolute;
+            outline: 0;
+            transition: all .5s;
+            border-radius: 4px;
+            z-index: 1000;
+            border: 0;
+            background-color: #91BF4C;
+            /* background: rgba(0,0,0,0.5); */
+            min-width: 50px;
+            min-height: 50px;
+            opacity: 1;
+            cursor: pointer;
+            &:hover{
+                opacity: 0.8;
+                background-color: #91BF4C;
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "280403",
+    "ThreadId": "81659",
+    "Html": "<p>Hi,</p>\r\n<p>This is greate tool, can you help in configuring coverflow with sharepoint,</p>\r\n<p>Thanks</p>\r\n<p>Murthy.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2010-01-21T22:45:46.757-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "413359",
+    "ThreadId": "81659",
+    "Html": "<p>Hey ...</p>\r\n<p>I am also looking for help in configuring for sharepoint, if you work it out let me know Murthy.</p>\r\n<p>&nbsp;</p>\r\n<p>Thanks,</p>\r\n<p>Mark</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2010-03-02T13:07:31.787-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "413853",
+    "ThreadId": "81659",
+    "Html": "<p>Guys,&nbsp;</p>\r\n<p>How do you want this integrated with SharePoint? &nbsp;What kind of samples do you want? &nbsp;Feel free to PM me and I will work something up.</p>",
+    "PostedDate": "2010-03-03T13:55:46.587-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "413914",
+    "ThreadId": "81659",
+    "Html": "<p>Hi Walshieau,</p>\r\n<p>&nbsp;</p>\r\n<p>It should be integrated with an sharepoint list or Picture library, so that when we click on the coverflow image it should show the Details of that image. or particulars we added about that image.</p>\r\n<p>Can you&nbsp;guide me how to&nbsp;achive like this.</p>\r\n<p>&nbsp;</p>\r\n<p>Thanks,</p>\r\n<p>Murthy.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2010-03-03T16:58:22.38-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

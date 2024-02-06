@@ -1,0 +1,139 @@
+@import "Colors";
+
+$weight:bold;
+$spacing: 0;
+$cursor: pointer;
+
+@media (max-width:991px){
+.footer {
+    .footerTxt{
+            color: #FFFFFF;
+            font-size: 27px;
+            font-weight: bold;
+            letter-spacing: 0;
+            line-height: 32px;     
+    }
+    .footerDet{
+        display: none;
+    }
+    .IconsDiv{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .copyright{
+        position: relative;
+        bottom: 0px;
+        text-align: center;
+    } 
+}
+}
+@media (min-width:992px){
+    .footer{
+        height: 301.5px;
+    }
+    .footerTxt{
+        line-height: 45px;
+        font-size: 36px;
+    }
+    .copyright{
+        position: absolute;
+        bottom: 10px;
+    }
+    .IconsDiv{
+        margin-top: 25px;
+    }
+}
+.footer{
+    width: 100%;
+    background-color: #0E7ABF;
+    padding: 30px;
+    padding-bottom: 0px;
+    .container{
+        height: 100%;
+        position: relative;
+    }
+    .footerTxt{
+        color: $primary-color;
+        letter-spacing: $spacing;
+        font-weight: $weight;
+        cursor: $cursor;
+        &:hover{
+            opacity: 0.9;
+        }
+    }
+    ul{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    li{
+        color: $primary-color;
+        letter-spacing: $spacing;
+        font-size: 14px;
+        line-height: 30px;
+        cursor: $cursor;
+        font-weight: 400;
+        &:hover{
+            opacity: 0.9;
+            text-decoration: none;
+        }
+    }
+    .active{
+        font-weight: bold;
+    }
+    .footerSub{
+        color: $primary-color;
+        font-size: 18px;
+        letter-spacing: $spacing;
+        line-height: 22px;
+        font-weight: 400;
+        margin-top: 15px;
+    }
+    
+    .icons{
+        margin-right: 15px;
+        cursor: $cursor;
+        &:hover{
+            opacity: 0.4;
+        }
+    }
+   .copyright{
+        color: $primary-color;
+        font-size: 13px;
+        letter-spacing: $spacing;
+        line-height: 20px;
+        font-weight: 100;
+        // position: absolute;
+        // bottom: 10px;
+    }
+    span{
+        position: absolute;
+        bottom: 10px;
+       
+        a{ 
+          
+            color: #ffffffbd;
+            opacity: 0.75;
+            font-size: 13px;
+            letter-spacing: .2px;
+            line-height: 20px;
+            text-decoration: none;
+            font-weight: 100;
+            margin: 5px;
+            &:hover{
+                color: $primary-color;
+            }
+        }
+        .divider{
+            height: 10px;
+            width: 0px;
+            border: 0.5px solid #ffffff91;
+            margin-top: 6px;
+            padding-top: 2px;
+        }
+    }
+    
+}

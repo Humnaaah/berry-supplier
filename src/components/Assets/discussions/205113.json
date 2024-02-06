@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "418723",
+    "ThreadId": "205113",
+    "Html": "<p>Hi,</p>\r\n<p>I was hopeing to use this control with windows phone 7. I have it working to the point that you can see the images and everything seems great but i noticed that the drag option does not work like it does in your sample. Is there a property to enable this? also are there any detailed guides?</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2010-03-16T08:34:34.08-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "431843",
+    "ThreadId": "205113",
+    "Html": "<p>You'd need to change the event handlers a little, but yeah.</p>\r\n<p>&nbsp;</p>\r\n<p>Dunno if the Windows Marketplace team will necessarily like that though, could be breaking the UI guidelines. &nbsp;After all I think it might even be <span style=\"text-decoration:underline\">patented</span>&nbsp;by Apple. &nbsp;Even if it isn't, it is an Apple concept. &nbsp;Maybe see if you can find a different way to display your data?</p>",
+    "PostedDate": "2010-04-16T02:06:38.883-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

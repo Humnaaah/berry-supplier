@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* .car{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  position: relative;
+  width: 600px;
+  height:271px;
+  overflow:hidden;
+} */
+
+.wheel{
+  position: absolute;
+  /* animation: wheel 10s linear -2s infinite; */
+  height: 85px;
+  position: absolute;
+  top: 67%;
+  width: 85px;
+  z-index: 200;
+  /* animation: wheelanimation linear .6s infinite; */
+  /* animation: rotation 2s infinite linear; */
+}
+@keyframes wheel{
+  0%{
+   transform: rotate(0deg)
+  }
+  35% {
+    transform: rotate(-500deg)
+  }
+  36%,
+  56% {
+    transform: rotate(-500deg)
+  }
+  100%{
+    transform: rotate(-1000deg)
+  }
+}
+/* Rotation of the wheels */
+@keyframes wheelanimation{
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+#Combined-Shape-roads{
+  /* background-repeat: repeat-x; */
+  animation: trackanimation 3s linear infinite;
+  /* position: absolute; */
+  width: 1000vw;
+}
+/* Moving the track backwards */
+@keyframes trackanimation {
+  /* 100% {
+      transform: translate(-2vw);
+  } */
+  0% {transform: translate(6%, 0px);}
+  100% {transform: translate(-2%, 0px);}
+}
+.Group-7-sub{
+  position: relative;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+  /* .navbar-collapse{
+    right: -75%;
+    transition: height 0s ease;
+}
+
+.navbar-collapse {
+    right: 0;
+    transition: left 300ms ease-in-out;
+}
+
+.navbar-toggler.collapsed ~ .navbar-collapse {
+    transition: left 500ms ease-in-out;
+} */

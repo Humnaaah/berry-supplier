@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have updated my Visual Studio and Silverlight tools until today. When I create a silverlight application using silverlight 4 and add the CoverFlow control\nto the page it throws the error :Error HRESULT E_FAIL has been returned from a call to a COM component.\nI tried using Silverlight 3, and it does not throw any errors at all. I have also tried adding the System.Windows.Controls.Data.Input to the project reference\nand import to the page with control xmlns:my=\"clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data.Input\" .\n \nEven after doing that it still throws the same error. Can you please suggest me what I should be doing ?",
+    "LastUpdatedDate": "2013-02-14T11:10:54.59-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "SilverlightCoverFlow",
+    "ReportedDate": "2011-12-01T07:03:08.217-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Adding the Coverflow Control to a silverlight 4 application throws and error",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 6638
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

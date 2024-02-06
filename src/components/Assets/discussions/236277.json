@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "527858",
+    "ThreadId": "236277",
+    "Html": "\r\n<p>Great control. I've used it to display dialogs, charts and whatnot.</p>\r\n<p>But here's a question: how can I change the order of the covers? I'd like to add 'move page left'/'...right' functionality.</p>\r\n<p>Tweaking with the observablecollection doesn't work (exception). Setting the control's ItemsSource to null and then back to the reordered observablecollection doesn't work (exception).</p>\r\n<p>This is probably one of those 'be prepared to slap yourself of the forehead' -things but I can't figure this out by myself.</p>\r\n<p>Thanks already in advance for any ideas.</p>\r\n",
+    "PostedDate": "2010-11-28T04:33:06.387-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

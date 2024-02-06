@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "432622",
+    "ThreadId": "209747",
+    "Html": "<p>Hi,</p>\r\n<p>When i start this example code I got the&nbsp; message &quot;There was an error retrieveing xml&quot;.</p>\r\n<p>What am I doing wrong?</p>\r\n<p>with kind regards</p>\r\n<p>Klaasjan</p>",
+    "PostedDate": "2010-04-19T02:14:32.993-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "473186",
+    "ThreadId": "209747",
+    "Html": "I just got the same thing, with an error message of &quot;The server committed a protocol violation. Section=ResponseHeader Detail=Header name is invalid&quot; in the debugger.\r\n\r\nJust to get the sample to run I  opened http://www.apple.com/trailers/home/xml/current.xml in my browser, saved it to the ClientBin folder, and replaced the\r\n\r\n data = webClient.DownloadData(&quot;http://www.apple.com/trailers/home/xml/current.xml&quot;);\r\n\r\nline in CoverFlowService.svc.cs with\r\n\r\n data = webClient.DownloadData(&quot;http://localhost:52703/ClientBin/current.xml&quot;);\r\n\r\n(where localhost:52703 was the url the debugger was bringing up for me, but it may be different on your machine) so I could at least run the sample program.",
+    "PostedDate": "2010-07-27T06:40:01.703-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

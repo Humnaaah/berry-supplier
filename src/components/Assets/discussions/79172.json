@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "271095",
+    "ThreadId": "79172",
+    "Html": "<p>Great application.</p>\r\n<p>Im new to silverlight. the prblem im facing is that i have creata the new xml in app_data folder, now i want to retrieve from it. its a exact copy of the xml whose link is provided in the source code.</p>\r\n<p>this is what i hve done. in</p>\r\n<p>&nbsp;</p>\r\n<div style=\"color:Black;background-color:White\">\r\n<pre> WebClient webClient = <span style=\"color:Blue\">new</span> WebClient();<br> HttpServerUtility Server = HttpContext.Current.Server;<br> //<span style=\"color:Green\">string xml = </span>webClient.DownloadString(&quot;http://www.apple.com/trailers/home/xml/current.xml&quot;)<span style=\"color:Green\">;</span><br> <span style=\"color:Blue\">string</span> xml = Server.MapPath(<span style=\"color:#A31515\">@&quot;~\\App_Data\\\\XMLFile1.xml&quot;</span>);<br> context.Cache.Insert(<span style=\"color:#A31515\">&quot;movieXml&quot;</span>, xml, <span style=\"color:Blue\">null</span>, DateTime.UtcNow.AddDays(1), TimeSpan.FromSeconds(0));<br><br>changed xml path to this path.<br><br>but im getting this exception <em><strong>&quot;Data at the root level is invalid. Line 1, position 1.&quot;<br></strong></em>this xml is in the corrent format.<br><br>I'll b very thnkful if someone help me out from this.</pre>\r\n</div>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-12-28T01:50:13.443-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

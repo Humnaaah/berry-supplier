@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "229873",
+    "ThreadId": "67634",
+    "Html": "<p>fantastic application.<br><br>i'm new to silverlight and i've been able to follow your code enough to make my modifications.<br><br>but how to i get the top (displaying) element?</p>",
+    "PostedDate": "2009-09-01T13:24:13.01-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "230507",
+    "ThreadId": "67634",
+    "Html": "<p>curlyfro, are you talking about the object being displayed?</p>",
+    "PostedDate": "2009-09-02T22:16:38.703-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "230673",
+    "ThreadId": "67634",
+    "Html": "<p>yes -- the current object being displayed.<br><br>i need to put a mouse click event on the current object and redirect to an edit page for that object.<br><br>what's a good way to do that?</p>",
+    "PostedDate": "2009-09-03T06:50:17.913-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "245630",
+    "ThreadId": "67634",
+    "Html": "<p>Try the latest code.&nbsp; There is an event called&nbsp;<span style=\"font-size:x-small\">SelectedItemClicked.&nbsp; That should do what you are talking about.</span></p>\r\n<p><span style=\"font-size:x-small\">Darick</span></p>",
+    "PostedDate": "2009-10-14T08:19:25.753-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "245653",
+    "ThreadId": "67634",
+    "Html": "<p>got it -- it's working.<br><br>thanks.</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-10-14T08:54:26.727-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "423772",
+    "ThreadId": "67634",
+    "Html": "<p>Has <span style=\"font-size:x-small\">SelectedItemClicked been removed? Don't see that event as an option on the CoverFlowControl object.</span></p>",
+    "PostedDate": "2010-03-25T14:16:49.837-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "236757",
+    "ThreadId": "69562",
+    "Html": "<p>Firstly that was an elegant coverflow program. Do u think there is an issue with respect to accessing cross domain when accessing a webserver in IE8. Any input would be informative. Thanx</p>",
+    "PostedDate": "2009-09-20T22:46:59.727-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "242403",
+    "ThreadId": "69562",
+    "Html": "<p>dilipm,&nbsp;</p>\r\n<p>depends on where you are getting your data from, if they have got a clientaccesspolicy.xml file in the root, then sure there won't be an issue...</p>",
+    "PostedDate": "2009-10-05T22:08:33.363-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

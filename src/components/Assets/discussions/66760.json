@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "226927",
+    "ThreadId": "66760",
+    "Html": "<p>I'm using RIA Services to load images from a database, now I have an ObservableCollection bound to the ItemSource and whenever a new entry is added, it is overlayed the previous, instead of stacking the item to the right.&nbsp;</p>",
+    "PostedDate": "2009-08-23T23:36:51.047-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "245632",
+    "ThreadId": "66760",
+    "Html": "<p>This problem should be fixed.&nbsp; Please let me know if it is still having problems.</p>\r\n<p>Darick</p>",
+    "PostedDate": "2009-10-14T08:20:05.05-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "245987",
+    "ThreadId": "66760",
+    "Html": "<p>Darick,&nbsp;</p>\r\n<p>Indeed the new source does fix the issue, but discovered another when navigating back it seems the left image is overlaid the center image until it realigns itself...</p>",
+    "PostedDate": "2009-10-15T05:24:40.07-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

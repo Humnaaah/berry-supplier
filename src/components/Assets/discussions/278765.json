@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "695508",
+    "ThreadId": "278765",
+    "Html": "<p>First off great control, this is probably the best SL coverflow I've seen out there. &nbsp;I'm having one issue though... the first version (on the download page, that has Previous / Next buttons, etc) worked great with wiring up a WCF service and to pass Image  URL's to the flowControl. &nbsp;I really like the latest version (47814) though, with the border highlights, cornering, and titles etc. &nbsp;So I've been trying to get that working. &nbsp;My WCF call is working as expected, but the images never load, just the titles. &nbsp;Looking at Fiddler,  it never attempts to get the image resource files like it did with the first version of the coverflow control. &nbsp;What am I missing here? &nbsp;Is it something to do with the new \"ConvertURL\" functionality or Caching?&nbsp;</p>",
+    "PostedDate": "2011-11-08T12:45:46.69-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

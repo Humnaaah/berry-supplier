@@ -1,0 +1,187 @@
+@media(max-width:500px){
+    .service-main{
+        padding-top: 27%;
+    }
+}
+@media(max-width:767px) and (min-width:501px){
+    .service-main{
+        padding-top: 17%;
+    }
+}
+@media (min-width:768px){
+    .soldecLi{
+        font-size: 13px;
+    }
+    .solTitle{
+        font-size: 45px; 
+    }
+    .services{
+        .solIcons{
+            height: 90px;
+            width: 90px; 
+        }
+        .bitmap{
+            height: 320px;
+            width: 270px;
+            object-fit: contain;
+        }
+        .service-main{
+            padding-top: 10%;
+        }
+        .sol-Img{
+            height: 369px;
+        }
+        .container{
+            max-width: 960px;
+        }
+        .service-main{
+            .solTitle{
+                margin-top: 20%;
+            }
+        }
+        .service-div2{
+            height: 697px;
+            .sol-Img{
+                // margin-top: 13%;
+            }
+            .solIcons {
+                // margin-top: 100%;
+            }
+        }
+        .service-div4{
+            .solIcons {
+                margin-top: 1%;
+            }
+        }
+        .expandMore{
+            position: absolute;
+            bottom: 50px;
+        }
+    }
+}
+@media (max-width:767px){
+    .solIcons{
+        height: 70px;
+        width: 70px; 
+    }
+    .solTitle{
+        font-size: 30px; 
+    }
+    .soldecLi{
+        font-size: 13px;
+    }
+    .mobRow{
+        flex-direction: column-reverse;
+    }
+    .sol-Img{
+        height: max-content;
+    }
+    .bitmap{
+        height: 145px;
+        width: 270px;
+        object-fit: contain;
+    }
+    .service-main, .service-div3, .service-div5{
+        .container{
+            text-align: left;
+        }
+    }
+    .service-div4{
+        .container{
+            text-align: right;
+        }
+    }
+    .service-div2{
+        height: 880px;
+        .container{
+            text-align: right;
+        }
+    }
+    
+}
+.services{
+    .expandMore{
+        position: absolute;
+    }
+        .sol-Img{
+            width: 100%;
+            text-align: center;
+        }
+        .solTitle{
+            line-height: 57px;
+            color: #FFFFFF;
+            font-weight: bold;
+            letter-spacing: 0;
+            text-align: left;
+        }
+        .solDesc{
+            list-style-type: circle;
+            .soldecLi{
+                color: #FFFFFF;
+                letter-spacing: 0;
+                line-height: 25px;
+                text-align: left;
+            }   
+            .solDescsub{
+                list-style-type: disc;
+            }
+        }
+    .service-main{
+        background-image: url('../Assets/solution five.png');
+        width: 100%;
+        height: 624px;
+        position: relative;
+        // background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center; 
+    }
+    .service-div2{
+        background-image: url('../Assets/solutions-fourth.png');
+        width: 100%;
+        position: relative;
+        // background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 6%;
+        text-align: center;
+    }
+    .service-div3{
+        background-image: url('../Assets/solutions-second.png');
+        width: 100%;
+        height: 624px;
+        position: relative;
+        // background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 13%;
+        text-align: center; 
+    }
+    .service-div4{
+        background-image: url('../Assets/solution-sec3.png');
+        width: 100%;
+        height: 624px;
+        position: relative;
+        // background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 10%;
+        text-align: center; 
+    }
+    .service-div5{
+        background-image: url('../Assets/solutions_main copy.png');
+        width: 100%;
+        height: 624px;
+        position: relative;
+        // background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 9%;
+        text-align: center; 
+    }
+}
